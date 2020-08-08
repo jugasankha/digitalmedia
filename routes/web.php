@@ -20,3 +20,5 @@ Route::get('/services', 'PagesController@services');
 Route::get('/about', 'PagesController@about');
 // team route
 Route::get('/team', 'PagesController@team');
+// contact route
+Route::get('/contact', 'PagesController@contact');

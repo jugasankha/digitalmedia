@@ -15,7 +15,7 @@
     </div>
     </div>
 </section><!-- End Our Team Section -->
-      <!-- ======= Team Section ======= -->
+<!-- ======= Team Section ======= -->
 <section class="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
     <div class="container">
         <div class="row">

@@ -26,6 +26,26 @@
     <!-- Slide 3 -->
     <div class="carousel-item">
         <div class="carousel-container">
+        <h2 class="animate__animated animate__fadeInDown">Are you an advertiser?</h2>
+        <p class="animate__animated animate__fadeInUp">We delivers the best brand experience for its advertisers by integrating brand information with the most engaging creative experiences. Our QAWR (Quality Audience with Worldwide Reach) through publishers across the world, allows us to take your brand to relevant customers threaded through an interactive experience. We pay special attention to specific data driven optimization with trending insight to make the experience worth for our end customer.
+
+            Our easy to understand platform provides a self-serve interface which helps advertisers to perform recurring self-services for better yield optimization.</p>
+        <a href="#" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="carousel-container">
+        <h2 class="animate__animated animate__fadeInDown">Are you a publisher</h2>
+        <p class="animate__animated animate__fadeInUp">With the industry leading fill rates & premiums, Tarsan focuses on best advertising user experience through our rich media suite. Tarsan’s self-control interface with a switch on and switch off campaigns feature allows publishers total control. Not only that, our auto scalable platform is deployed in Tier-III data centre with 99.99% availability to ensure no business impact for our publishers.
+
+            We offer perfect blend of creating extraordinary visual experience blended with targeted worldwide reach for your brand. We have options for fall back and other vital targeting options available to ease campaign performance also.</p>
+        <a href="#" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="carousel-container">
         <h2 class="animate__animated animate__fadeInDown">Strategize and Deliver</h2>
         <p class="animate__animated animate__fadeInUp">Data driven Technology destination for mobile advertising. Reach Right User, Get Max ROI</p>
         <a href="#" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
