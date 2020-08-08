@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Moderna Bootstrap Template - Index</title>
+    <title>{{ $title }}</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
 
@@ -38,38 +38,19 @@
         <div class="container">
 
         <div class="logo float-left">
-            <h1 class="text-light"><a href="index.html"><span>Moderna</span></a></h1>
+            {{-- <h1 class="text-light"><a href="index.html"><span>Moderna</span></a></h1> --}}
             <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="asset(img/logo.png" alt="" class="img-fluid"></a>-->
+            <a href="index.html"><img src="{{ asset('img/favicon.png') }}" alt="" class="img-fluid"></a>
         </div>
 
         <nav class="nav-menu float-right d-none d-lg-block">
             <ul>
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">Services</a></li>
+            <li><a href="services.html">Agency</a></li>
+            <li><a href="portfolio.html">About</a></li>
             <li><a href="team.html">Team</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li class="drop-down"><a href="">Drop Down</a>
-                <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="drop-down"><a href="#">Drop Down 2</a>
-                    <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-                <li><a href="#">Drop Down 5</a></li>
-                </ul>
-            </li>
-            <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <li><a href="blog.html">Contact</a></li>
         </nav><!-- .nav-menu -->
 
         </div>
@@ -80,7 +61,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
 
-        <div class="footer-newsletter">
+        {{-- <div class="footer-newsletter">
         <div class="container">
             <div class="row">
             <div class="col-lg-6">
@@ -94,7 +75,7 @@
             </div>
             </div>
         </div>
-        </div>
+        </div> --}}
 
         <div class="footer-top">
         <div class="container">
@@ -103,8 +84,7 @@
             <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
@@ -114,29 +94,31 @@
             <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Performance</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Mobile Subscriptions</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Bulk Messaging</a></li>
+                
                 </ul>
             </div>
+            
+  
+
 
             <div class="col-lg-3 col-md-6 footer-contact">
-                <h4>Contact Us</h4>
+                <h4>App Alley Pvt Ltd</h4>
                 <p>
-                A108 Adam Street <br>
-                New York, NY 535022<br>
-                United States <br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                125, US Complex, 120 Mathura Road,<br>
+                Next to Apollo Jasola Metro Station,<br>
+                Jasola, New Delhi – 110076. India<br>
+                <strong>Phone:</strong> +91 9958737776<br>
+                <strong>Email:</strong> info@tarsan.co.in<br>
                 </p>
 
             </div>
 
             <div class="col-lg-3 col-md-6 footer-info">
-                <h3>About Moderna</h3>
-                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <h3>App Alley Pvt Ltd</h3>
+                <p>We are a data driven technology destination for all of your digital needs. Optimize returns through pertinent targeting and insights driven optimisations.</p>
                 <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -151,14 +133,9 @@
 
         <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong><span>Moderna</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>App Alley Pvt Ltd</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
         </div>
     </footer><!-- End Footer -->

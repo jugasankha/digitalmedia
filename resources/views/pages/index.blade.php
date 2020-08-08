@@ -6,27 +6,29 @@
     <!-- Slide 1 -->
     <div class="carousel-item active">
         <div class="carousel-container">
-        <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Moderna</span></h2>
-        <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-        <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        <h2 class="animate__animated animate__fadeInDown">Welcome to <span>App Alley Pvt Ltd</span></h2>
+        <p class="animate__animated animate__fadeInUp">Glad to serve you!</p>
+        <a href="#" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
     </div>
 
     <!-- Slide 2 -->
     <div class="carousel-item">
         <div class="carousel-container">
-        <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-        <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-        <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        <h2 class="animate__animated animate__fadeInDown">We understand</h2>
+        <p class="animate__animated animate__fadeInUp">Mobile is the future in Advertising, and we aim to be first in giving
+            the complete experience to our users, we have developed our In-house
+            platform to understand mobile user unlike any other.</p>
+        <a href="#" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
     </div>
 
     <!-- Slide 3 -->
     <div class="carousel-item">
         <div class="carousel-container">
-        <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-        <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-        <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        <h2 class="animate__animated animate__fadeInDown">Strategize and Deliver</h2>
+        <p class="animate__animated animate__fadeInUp">Data driven Technology destination for mobile advertising. Reach Right User, Get Max ROI</p>
+        <a href="#" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
     </div>
 
@@ -53,32 +55,43 @@
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
             <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <h4 class="title"><a href="">Goal</a></h4>
+            <p class="description">To provide the best mobile advertising service at affordable prices</p>
             </div>
         </div>
+        {{-- Policy --}}
 
+{{-- Privacy Policy
+Your privacy is important to us. It is App Alley Pvt Ltd's policy to respect your privacy regarding any information we may collect from you across our website, http://www.appalley.com, and other sites we own and operate.
+We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
+We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
+We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
+Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
+You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.
+Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.
+This policy is effective as of 28 August 2025.
+Privacy Policy created with GetTerms.  --}}
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="">Policy</a></h4>
+            <p class="description"> We respect your privacy regarding any information we may collect from you across our website,</p>
             </div>
         </div>
 
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-green">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <h4 class="title"><a href="">Speed</a></h4>
+            <p class="description">Our work force believes in rapid rapid development and high scalability</p>
             </div>
         </div>
 
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-blue">
             <div class="icon"><i class="bx bx-world"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <h4 class="title"><a href="">Culture</a></h4>
+            <p class="description"> Culture is the persona of the organization. We prioritize consumer satisfaction above all </p>
             </div>
         </div>
 
@@ -88,7 +101,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+    {{-- <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
     <div class="container">
 
         <div class="row">
@@ -115,15 +128,14 @@
         </div>
 
     </div>
-    </section><!-- End Why Us Section -->
+    </section><!-- End Why Us Section --> --}}
 
     <!-- ======= Features Section ======= -->
     <section class="features">
     <div class="container">
 
         <div class="section-title">
-        <h2>Features</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <h2>Services</h2>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -131,15 +143,10 @@
             <img src="{{ asset('img/features-1.svg') }}" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-4">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>DISPLAY | MAINSTREAM</h3>
             <p class="font-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
+                Our strong belief suggests that display campaigns & branding will help you move up the ladder from your current positioning.
             </p>
-            <ul>
-            <li><i class="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li><i class="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            </ul>
         </div>
         </div>
 
@@ -148,15 +155,9 @@
             <img src="{{ asset('img/features-2.svg') }}" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Corporis temporibus maiores provident</h3>
+            <h3>SOCIAL</h3>
             <p class="font-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
-            </p>
-            <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+                We support objectives like “likes, installs, shares, engagements” and use them to drive Growing ROI on Ad Spends (GRAS).
             </p>
         </div>
         </div>
@@ -166,13 +167,8 @@
             <img src="{{ asset('img/features-3.svg') }}" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-5">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
-            <ul>
-            <li><i class="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li><i class="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            <li><i class="icofont-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
-            </ul>
+            <h3>MOBILE SUBSCRIPTIONS</h3>
+            <p>With a focus on the end customer, aims to optimize customer experience with the use of right communication, context and rich creative experience.</p>
         </div>
         </div>
 
@@ -181,15 +177,9 @@
             <img src="{{ asset('img/features-4.svg') }}" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+            <h3>EMAIL / SMS / VOICE / SHORT CODES / CMS</h3>
             <p class="font-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
-            </p>
-            <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+                Transactional and promotional Email/ Sms services being provided with options of integrating with clients legacy system.
             </p>
         </div>
         </div>
