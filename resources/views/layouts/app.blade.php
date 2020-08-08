@@ -44,13 +44,13 @@
         </div>
 
         <nav class="nav-menu float-right d-none d-lg-block">
-            <ul>
-            <li class="active"><a href="/">Home</a></li>
+            <ul class="navigation">
+            <li class=""><a href="/">Home</a></li>
             <li><a href="/services">Services</a></li>
-            <li><a href="services.html">Agency</a></li>
-            <li><a href="portfolio.html">About</a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="team.html">Team</a></li>
             <li><a href="blog.html">Contact</a></li>
+            </ul>
         </nav><!-- .nav-menu -->
 
         </div>
@@ -146,6 +146,7 @@
 
     <!-- Vendor JS Files -->
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+    
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}"></script>
     <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
@@ -158,6 +159,18 @@
 
     <!-- Template Main JS File -->
     <script src="{{ asset('js/main.js') }}"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = window.location.href;
+            url = url.split('/')
+            url = '/' + url.pop()
+            console.log(url)
+            $('ul.navigation a[href="'+ url +'"]').parent().addClass('active');
+            $('ul.navigation a').filter(function() {
+                return this.href == url;
+            }).parent().addClass('active');
+        });
+    </script> 
 
 </body>
 

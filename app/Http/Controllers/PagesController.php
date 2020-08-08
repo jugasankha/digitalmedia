@@ -20,4 +20,11 @@ class PagesController extends Controller
         );
         return view('pages.services')->with($data);
     }
+
+    public function about() {
+        $data = array(
+            'title' => 'App Alley | About'
+        );
+        return view('pages.about')->with($data);
+    }
 }
