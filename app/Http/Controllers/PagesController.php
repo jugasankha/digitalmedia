@@ -27,4 +27,11 @@ class PagesController extends Controller
         );
         return view('pages.about')->with($data);
     }
+
+    public function team() {
+        $data = array(
+            'title' => 'App Alley | Team'
+        );
+        return view('pages.team')->with($data);
+    }
 }

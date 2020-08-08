@@ -48,7 +48,7 @@
             <li class=""><a href="/">Home</a></li>
             <li><a href="/services">Services</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="team.html">Team</a></li>
+            <li><a href="/team">Team</a></li>
             <li><a href="blog.html">Contact</a></li>
             </ul>
         </nav><!-- .nav-menu -->
@@ -101,7 +101,6 @@
                 </ul>
             </div>
             
-  
 
 
             <div class="col-lg-3 col-md-6 footer-contact">
