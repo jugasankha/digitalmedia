@@ -32,7 +32,19 @@
 </head>
 
 <body>
-
+    {{-- <div class="splash">
+        <h1 style="margin-top:45vh; font-size: 1.5rem">App Alley</h1>
+    </div> --}}
+    {{-- <div class="loading">
+        <div class="obj"></div>
+        <div class="obj"></div>
+        <div class="obj"></div>
+        <div class="obj"></div>
+        <div class="obj"></div>
+        <div class="obj"></div>
+        <div class="obj"></div>
+        <div class="obj"></div>
+    </div> --}}
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-transparent">
         <div class="container">
@@ -155,7 +167,7 @@
     <script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
     <script src="{{ asset('vendor/aos/aos.js') }}"></script>
-
+    <script src="{{ asset('js/js-splash-2.0.min.js') }}"></script>
     <!-- Template Main JS File -->
     <script src="{{ asset('js/main.js') }}"></script>
     <script type="text/javascript">
@@ -169,7 +181,9 @@
                 return this.href == url;
             }).parent().addClass('active');
         });
-    </script> 
+        
+    </script>
+    @yield('splash')
 
 </body>
 
