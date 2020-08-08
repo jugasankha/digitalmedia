@@ -75,7 +75,7 @@
         </div>
     </header><!-- End Header -->
 
-    
+    @yield('content')
 
     <!-- ======= Footer ======= -->
     <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
@@ -163,7 +163,7 @@
         </div>
     </footer><!-- End Footer -->
     <!-- Main content -->
-    @yield('content')
+    
     <!-- End of main content -->
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
