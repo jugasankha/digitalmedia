@@ -40,13 +40,13 @@
         <div class="logo float-left">
             {{-- <h1 class="text-light"><a href="index.html"><span>Moderna</span></a></h1> --}}
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.html"><img src="{{ asset('img/favicon.png') }}" alt="" class="img-fluid"></a>
+            <a href="/"><img src="{{ asset('img/favicon.png') }}" alt="" class="img-fluid"></a>
         </div>
 
         <nav class="nav-menu float-right d-none d-lg-block">
             <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">Services</a></li>
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
             <li><a href="services.html">Agency</a></li>
             <li><a href="portfolio.html">About</a></li>
             <li><a href="team.html">Team</a></li>

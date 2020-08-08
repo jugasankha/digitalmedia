@@ -48,20 +48,7 @@
 <main id="main">
 
     <!-- ======= Services Section ======= -->
-    <section class="services">
-    <div class="container">
-
-        <div class="row">
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box icon-box-pink">
-            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4 class="title"><a href="">Goal</a></h4>
-            <p class="description">To provide the best mobile advertising service at affordable prices</p>
-            </div>
-        </div>
-        {{-- Policy --}}
-
-{{-- Privacy Policy
+    {{-- Privacy Policy
 Your privacy is important to us. It is App Alley Pvt Ltd's policy to respect your privacy regarding any information we may collect from you across our website, http://www.appalley.com, and other sites we own and operate.
 We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
 We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
@@ -71,33 +58,47 @@ You are free to refuse our request for your personal information, with the under
 Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.
 This policy is effective as of 28 August 2025.
 Privacy Policy created with GetTerms.  --}}
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box icon-box-cyan">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4 class="title"><a href="">Policy</a></h4>
-            <p class="description"> We respect your privacy regarding any information we may collect from you across our website,</p>
+    <section class="services">
+        <div class="container">
+
+            <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="icon-box icon-box-pink">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4 class="title"><a href="">Goal</a></h4>
+                <p class="description">To provide the best mobile advertising service at affordable prices</p>
+                </div>
             </div>
-        </div>
+            {{-- Policy --}}
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4 class="title"><a href="">Speed</a></h4>
-            <p class="description">Our work force believes in rapid rapid development and high scalability</p>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box icon-box-cyan">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4 class="title"><a href="">Policy</a></h4>
+                <p class="description"> We respect your privacy regarding any information we may collect from you across our website,</p>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-blue">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4 class="title"><a href="">Culture</a></h4>
-            <p class="description"> Culture is the persona of the organization. We prioritize consumer satisfaction above all </p>
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box icon-box-green">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4 class="title"><a href="">Speed</a></h4>
+                <p class="description">Our work force believes in rapid rapid development and high scalability</p>
+                </div>
             </div>
-        </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box icon-box-blue">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4 class="title"><a href="">Culture</a></h4>
+                <p class="description"> Culture is the persona of the organization. We prioritize consumer satisfaction above all </p>
+                </div>
+            </div>
+
+            </div>
 
         </div>
-
-    </div>
     </section><!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
