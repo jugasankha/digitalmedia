@@ -27,46 +27,34 @@
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
+    <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
 
 </head>
 
 <body>
-    {{-- <div class="splash">
-        <h1 style="margin-top:45vh; font-size: 1.5rem">App Alley</h1>
-    </div> --}}
-    {{-- <div class="loading">
-        <div class="obj"></div>
-        <div class="obj"></div>
-        <div class="obj"></div>
-        <div class="obj"></div>
-        <div class="obj"></div>
-        <div class="obj"></div>
-        <div class="obj"></div>
-        <div class="obj"></div>
-    </div> --}}
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-transparent">
         <div class="container">
 
         <div class="logo float-left">
-            {{-- <h1 class="text-light"><a href="index.html"><span>Moderna</span></a></h1> --}}
-            <!-- Uncomment below if you prefer to use an image logo -->
             <a href="/"><img src="{{ asset('img/favicon.png') }}" alt="" class="img-fluid"></a>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            
         </div>
 
-        <nav class="nav-menu float-right d-none d-lg-block">
+        <nav class="nav-menu float-right d-none d-lg-block" >
             <ul class="navigation">
-            <li class=""><a href="/">Home</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/team">Team</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li class="font-weight-bold"><a href="/" >Home</a></li>
+            <li class="font-weight-bold"><a href="/services">Services</a></li>
+            <li class="font-weight-bold"><a href="/about">About</a></li>
+            <li class="font-weight-bold"><a href="/team">Team</a></li>
+            <li class="font-weight-bold"><a href="/contact">Contact</a></li>
             </ul>
         </nav><!-- .nav-menu -->
-
+        
         </div>
     </header><!-- End Header -->
+
 
     @yield('content')
 
@@ -157,7 +145,6 @@
 
     <!-- Vendor JS Files -->
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-    
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}"></script>
     <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
@@ -171,16 +158,19 @@
     <!-- Template Main JS File -->
     <script src="{{ asset('js/main.js') }}"></script>
     <script type="text/javascript">
+        // ---------Responsive-navbar-active-animation-----------
         $(document).ready(function () {
             var url = window.location.href;
             url = url.split('/')
             url = '/' + url.pop()
-            console.log(url)
             $('ul.navigation a[href="'+ url +'"]').parent().addClass('active');
             $('ul.navigation a').filter(function() {
                 return this.href == url;
             }).parent().addClass('active');
+
+            setTimeout(function(){ test(); });
         });
+
         
     </script>
     @yield('splash')

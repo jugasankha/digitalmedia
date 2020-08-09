@@ -51,7 +51,7 @@
         </div>
     </section><!-- End About Section -->
     {{-- Start Brand section --}}
-    <section class="about" data-aos="fade-up">
+    <section class="about" data-aos="fade-up" style="background: rgb(51, 214, 165, 0.2)">
         <div class="section-title">
             <h2>Our Esteemed Partners</h2>
         </div>

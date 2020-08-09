@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-transparent {
-  background: none;
+  background: rgba(30, 86, 64, 0.7);
 }
 
 #header.header-scrolled {
@@ -1003,6 +1003,10 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features{
+  background: rgb(51, 214, 165, 0.2);
+}
+
 .features .row + .row {
   margin-top: 100px;
 }
@@ -1192,6 +1196,7 @@ section {
 --------------------------------------------------------------*/
 .service-details {
   padding-bottom: 10px;
+  background: rgb(51, 214, 165, 0.2);
 }
 
 .service-details .card {
@@ -1555,13 +1560,14 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: rgba(51, 176, 214, 0.2);
   padding-bottom: 30px;
 }
 
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
 }
 
 .team .member .member-img {

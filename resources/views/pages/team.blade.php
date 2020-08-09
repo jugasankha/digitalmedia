@@ -30,7 +30,7 @@
                         <a href=""><i class="icofont-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="member-info text-center p-1" style="background: rgba(209, 217, 230,0.5)">
+                    <div class="member-info text-center p-1" style="background: rgba(205, 217, 236, 0.5)">
                         <h4>Tarun Nayyar</h4>
                         <span>CEO & Founder</span>
                     </div>
