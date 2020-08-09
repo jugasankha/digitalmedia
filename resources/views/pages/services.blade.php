@@ -108,7 +108,7 @@
                     <img src="{{ asset('img/service-details-1.jpg') }}" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="#">DISPLAY | MAINSTREAM</a></h5>
+                    <h5 class="card-title"><a href="/services/display">DISPLAY | MAINSTREAM</a></h5>
                     <p class="card-text">Our campaigns inspire a trigger of response by keeping our displays informative and interactive.
                         With our equilibrium of creative experts and domain strategy specialists, 
                         ..
@@ -117,7 +117,7 @@
 
                         Our In-house Technology Platform & Partner integrations with Exchanges & DSPs allows us to target Quality Audience with Worldwide Reach (QAWR) to achieve the right Branding objectives. --}}
                     </p>
-                    <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="/services/display"><i class="icofont-arrow-right"></i> Read More</a></div>
                 </div>
                 </div>
             </div>
@@ -127,13 +127,13 @@
                     <img src="{{ asset('img/service-details-2.jpg') }}" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="#">SOCIAL</a></h5>
+                    <h5 class="card-title"><a href="/services/social">SOCIAL</a></h5>
                     <p class="card-text">
                         Our focus is not limited to network and exchanges, we walk a mile further into data consolidation and optimization with social media platforms. With the growing use of social, the audience size is humongous...
                 {{-- The use-case therefore becomes implied. With our subject matter experts and actionable insights from our brand researchers, we are enabled to optimize the social platforms and monetize returns. We support objectives like “likes, installs, shares, engagements” and use them to drive Growing ROI on Ad Spends (GRAS) for our campaigns.  --}}
 
                     </p>
-                    <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="/services/social"><i class="icofont-arrow-right"></i> Read More</a></div>
                 </div>
                 </div>
 
@@ -144,14 +144,14 @@
                     <img src="{{ asset('img/service-details-3.jpg') }}" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="#">
+                    <h5 class="card-title"><a href="/services/mobile">
                         MOBILE SUBSCRIPTIONS</a></h5>
                     <p class="card-text">With an intent to increase the average revenue per telecom user beyond the calls and messages, Mobile Subscriptions or Value Added Services were introduced...
                         {{-- Tarsan, with a focus on the end customer, aims to optimize customer experience with the use of right communication, context and rich creative experience. --}}
 {{-- 
                         We offer customer demographic specific packages to improve the utility and transactional value on your Mobile Subscriptions, be it CPA, CPS, CPAS, CPL & others. With our thousands of existing Mobile Subscription campaigns, we have been successful in decreasing the cost of User Acquisition & Growing ROI on Ad Spends (GRAS). --}}
                     </p>
-                    <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="/services/mobile"><i class="icofont-arrow-right"></i> Read More</a></div>
                 </div>
                 </div>
             </div>
@@ -161,13 +161,13 @@
                     <img src="{{ asset('img/service-details-4.jpg') }}" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="#">EMAIL / SMS / VOICE / SHORT CODES / CMS</a></h5>
+                    <h5 class="card-title"><a href="/services/messaging">EMAIL / SMS / VOICE / SHORT CODES / CMS</a></h5>
                     <p class="card-text">
                         With our team of specialists & technology, we have integrated SMS, emails, Voices, short codes with various ERP systems. Not only can we automate alerts on transactions,... 
                         {{-- we can also help you set reminders and 
                         engaging tools for your customers. Ours specialists work hard to provide you customized reports with insights of your campaigns. We offer dashboard access to each and every client with admin and multiple user login. We also, through our integrated solution over sms email voices short codes and virtual mobile numbers provide our clients to run various marketing and promotional /contests/etc. campaigns across India seamlessly. --}}
                     </p>
-                    <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="/services/messaging"><i class="icofont-arrow-right"></i> Read More</a></div>
                 </div>
                 </div>
             </div>

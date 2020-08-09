@@ -18,7 +18,7 @@
 </section><!-- End Contact Section -->
 
 <!-- ======= Contact Section ======= -->
-<section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+<section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="200">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
