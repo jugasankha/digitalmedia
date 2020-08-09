@@ -42,6 +42,13 @@ class PagesController extends Controller
         return view('pages.contact')->with($data);
     }
 
+    public function privacy() {
+        $data = array(
+            'title' => 'App Alley | Privacy'
+        );
+        return view('pages.privacy')->with($data);
+    }
+
     //service pages
     public function service($service){
         $data = array(

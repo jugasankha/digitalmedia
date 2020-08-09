@@ -25,3 +25,7 @@ Route::get('/contact', 'PagesController@contact');
 
 // Services routes
 Route::get('/services/{service}', 'PagesController@service');
+
+
+// Privacy routes
+Route::get('/privacy', 'PagesController@privacy');

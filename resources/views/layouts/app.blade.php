@@ -86,17 +86,17 @@
                 <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="/contact">Contact</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="/services">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/privacy">Privacy policy</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Performance</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Mobile Subscriptions</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Bulk Messaging</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/services/display">Display | Mainstream</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/services/social">Social</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/services/mobile">Mobile Subscriptions</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/services/messaging">Email and Messaging</a></li>
                 
                 </ul>
             </div>
