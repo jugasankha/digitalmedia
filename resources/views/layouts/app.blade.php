@@ -37,7 +37,7 @@
         <div class="container">
 
         <div class="logo float-left">
-            <a href="/"><img src="{{ asset('img/favicon.png') }}" alt="" class="img-fluid"></a>
+            <a href="/"><img src="{{ asset('img/logo.png') }}" alt="" class="img-fluid"></a>
             <!-- Uncomment below if you prefer to use an image logo -->
             
         </div>
