@@ -72,7 +72,7 @@ class PagesController extends Controller
             )
             );
         $data = $data[$service];
-        $data['title'] = $data['service_title'];
+        $data['title'] = "App Alley | ".$data['service_title'];
         $data['img'] = $service;
         return view('pages.service')->with($data);
     }
